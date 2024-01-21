@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up at Kuch Seekho</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        .loginformbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30vw;
+            flex-direction: column;
+            display: block;
+            margin: auto auto;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
+
+        .login-header {
+            background-color: #4caf50;
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .login-form {
+            padding: 48px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #4caf50;
+        }
+
+        .login-button {
+            background-color: #4caf50;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .login-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="space" style="padding-left: 4rem; padding-right: 4rem;">
+        <nav>
+            <div class="logo">
+                <img src="images/icons/exam_10402814.png" alt="KUCH SEEKHO" class="kuchseekhloLogo">
+                <p class="logo-heading">KUCH <br>SEEKHO! <br></p>
+            </div>
+            <div class="nav-bar">
+                <ul style="display: flex; justify-content: center; align-items: center;">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Courses</a></li>
+                    <li> <a href="contactus.html">Contact Us</a></li>
+                    <i class="fa-solid fa-cart-shopping" style="margin-right: 10px;"></i>
+                    <div>
+                        <button class="login-btn" style="margin-right: 10px; cursor: pointer;"><a
+                                href="loginform.html">Log
+                                in</a></button>
+                        <button class="sign-up" style="margin-right: 10px; cursor: pointer;"><a href="signup.html">Sign
+                                up</a></button>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <br><br>
+        <div class="loginformbox">
+            <div class="login-header">
+                <h2>Sign Up</h2>
+            </div>
+            <form action="#">
+                <div class="login-form">
+                    <div class="form-group">
+                        <label for="name">Username:</label>
+                        <input type="name" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Repeat Password:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button class="login-button">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="logo">
+                <img src="images/icons/exam_10402814.png" alt="KUCH SEEKHO" class="kuchseekhloLogo">
+                <p class="logo-heading">KUCH <br>SEEKHO</p>
+            </div>
+            <div class="helpful-links">
+                <div class="link-box" style="display: flex;align-items: center; margin-bottom: 5px;">
+                    <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                    <li><a href="">Home</a></li>
+                </div>
+                <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                    <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                    <li><a href="course.html">Courses</a></li>
+                </div>
+                <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                    <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                    <li><a href="">About</a></li>
+                </div>
+                <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                    <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                    <li><a href="">Privacy Policy</a></li>
+                </div>
+            </div>
+            <div class="get-in-touch">
+                <ul>
+                    <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                        <li>info@kuchseekho.com</li>
+                    </div>
+                    <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                        <li>info@kuchseekho.com</li>
+                    </div>
+                    <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                        <li>24 Hour Support</li>
+                    </div>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <ul>
+                    <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/facebook.png" alt="" width="20px" height="15px">
+                        <li><a href="">Facebook</a></li>
+                    </div>
+                    <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/twiiter.jpeg" alt="" width="20px" height="15px">
+                        <li><a href="">Twitter</a></li>
+                    </div>
+                    <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/youtube.jpeg" alt="" width="20px" height="15px">
+                        <li><a href="">YoutTube</a></li>
+                    </div>
+                    <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/instragram.jpeg" alt="" width="20px" height="15px">
+                        <li><a href="">Instagram</a></li>
+                    </div>
+                    <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/linkedin.png" alt="" width="20px" height="15px">
+                        <li><a href="">Linkedin</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

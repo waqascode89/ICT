@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUCH SEEKHO</title>
+    <link rel="stylesheet" href="course.css">
+</head>
+
+<body>
+
+    <div class="space">
+        <nav>
+            <div class="logo">
+                <img src="images/icons/exam_10402814.png" alt="KUCH SEEKHO" class="kuchseekhloLogo">
+                <p class="logo-heading">KUCH <br>SEEKHO</p>
+            </div>
+            <div class="nav-bar">
+                <a href="home.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="course.html">Courses</a>
+                <a href="contactus.html">Contact Us</a>
+                <button class="login-btn" style="margin-right: 10px; cursor: pointer;"><a href="loginform.html">Log
+                        in</a></button>
+                <button class="sign-up" style="margin-right: 10px; cursor: pointer;"><a href="signup.html">Sign
+                        up</a></button>
+
+            </div>
+        </nav>
+
+
+        <section>
+            <h1>A broad selection of courses</h1>
+            <p>Choose from over 210,000 online video courses with new additions published every month</p>
+            <div class="course-btns">
+                <div class="course-btn">
+                    <button onclick="filterCourses('html')">HTML</button>
+                </div>
+                <div class="course-btn">
+                    <button onclick="filterCourses('css')">CSS</button>
+                </div>
+                <div class="course-btn">
+                    <button onclick="filterCourses('js')">JavaScript</button>
+                </div>
+                <div class="course-btn">
+                    <button onclick="filterCourses('reactjs')">React JS</button>
+                </div>
+                <div class="course-btn">
+                    <button onclick="filterCourses('nodejs')">Node JS</button>
+                </div>
+                <div class="course-btn">
+                    <button onclick="filterCourses('tyjs')">TypeScript</button>
+                </div>
+                <div class="course-btn">
+                    <button onclick="filterCourses('py')">Python</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="popular-courses">
+                <div class="courses-boxes" style="display: flex; justify-content: center; align-items: center;">
+                    <i class="fa-solid fa-circle-arrow-left icon-left-right icon1"></i>
+                    <div class="course-view-box course" data-category="html">
+                        <img src="images/courses-images/img6.jpg" alt="" class="course-img">
+                        <h4>Learn HTML -<br> For Beginners</h4>
+                        <p>John Smith</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(877)</p>
+                        </div>
+                        <p>Rs 4999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="js">
+                        <img src="images/courses-images/img2.jpg" alt="" class="course-img">
+                        <h4>JavaScript Begineer to<br> Advanced</h4>
+                        <p>Alex Brad</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(41,894)</p>
+                        </div>
+                        <p>Rs 8999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="js">
+                        <img src="images/courses-images/img3.jpg" alt="" class="course-img">
+                        <h4>The Complete JavaScript<br> Course 2024</h4>
+                        <p>John Smith</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 25,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="html">
+                        <img src="images/courses-images/img4.jpg" alt="" class="course-img">
+                        <h4>HTML Tutorial for Beginners <br> Complete HTML with Notes</h4>
+                        <p>Ali Ahmed</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="css">
+                        <img src="images/courses-images/img1.jpg" alt="" class="course-img">
+                        <h4> CSS Complete Course (2024) <br>for Beginners</h4>
+                        <p>John Smith</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="js">
+                        <img src="images/courses-images/img7.jpg" alt="" class="course-img">
+                        <h4>JavaScript Tutorials for <br>Beginners in Hindi </h4>
+                        <p>Code With Harry</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="py">
+                        <img src="images/courses-images/img8.jpg" alt="" class="course-img">
+                        <h4>Python for <br>Beginners </h4>
+                        <p>Hamza</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="py">
+                        <img src="images/courses-images/img9.jpg" alt="" class="course-img">
+                        <h4>100 Days of Python <br>Programming </h4>
+                        <p>Yahya</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="py">
+                        <img src="images/courses-images/img10.jpg" alt="" class="course-img">
+                        <h4>Python Tutorial For <br> Beginners In Hindi 🔥</h4>
+                        <p>Haseeb</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="reactjs">
+                        <img src="images/courses-images/img11.jpg" alt="" class="course-img">
+                        <h4>React JS <br>Tutorial 2024 </h4>
+                        <p>Anas Khan</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="reactjs">
+                        <img src="images/courses-images/img12.jpg" alt="" class="course-img">
+                        <h4>ReactJS Tutorial for <br>Beginners </h4>
+                        <p>Firdous</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="nodejs">
+                        <img src="images/courses-images/img13.jpg" alt="" class="course-img">
+                        <h4>Master <br>NodeJS </h4>
+                        <p>Farhan</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="nodejs">
+                        <img src="images/courses-images/img14.jpeg" alt="" class="course-img">
+                        <h4>Node.js Crash Course <br> Tutorial </h4>
+                        <p>Asim</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="tyjs">
+                        <img src="images/courses-images/img15.png" alt="" class="course-img">
+                        <h4>TypeScript <br> Tutorial </h4>
+                        <p>Abdullah</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <div class="course-view-box course" data-category="tyjs">
+                        <img src="images/courses-images/img16.png" alt="" class="course-img">
+                        <h4>TypeScript For Beginners | <br> TypeScript Tutorials</h4>
+                        <p>Rao Muhammad Zubair</p>
+                        <div class="review-users-box">
+                            <img src="images/courses-images/review.png" alt="" class="review-img">
+                            <p class="how-many-buy">(187,947)</p>
+                        </div>
+                        <p>Rs 59,999</p><br>
+                        <button>Add to Cart</button>
+                    </div>
+                    <i class="fa-solid fa-circle-arrow-right icon-left-right icon2"></i>
+                </div>
+
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer">
+                <div class="logo">
+                    <img src="images/icons/exam_10402814.png" alt="KUCH SEEKHO" class="kuchseekhloLogo">
+                    <p class="logo-heading">KUCH <br>SEEKHO</p>
+                </div>
+                <div class="helpful-links">
+                    <div class="link-box" style="display: flex;align-items: center; margin-bottom: 5px;">
+                        <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                        <li><a href="">Home</a></li>
+                    </div>
+                    <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                        <li><a href="course.html">Courses</a></li>
+                    </div>
+                    <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                        <li><a href="">About</a></li>
+                    </div>
+                    <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                        <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                        <li><a href="">Privacy Policy</a></li>
+                    </div>
+                </div>
+                <div class="get-in-touch">
+                    <ul>
+                        <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                            <li>info@kuchseekho.com</li>
+                        </div>
+                        <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                            <li>info@kuchseekho.com</li>
+                        </div>
+                        <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                            <li>24 Hour Support</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="contact-us">
+                    <ul>
+                        <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/facebook.png" alt="" width="20px" height="15px">
+                            <li><a href="">Facebook</a></li>
+                        </div>
+                        <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/twiiter.jpeg" alt="" width="20px" height="15px">
+                            <li><a href="">Twitter</a></li>
+                        </div>
+                        <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/youtube.jpeg" alt="" width="20px" height="15px">
+                            <li><a href="">YoutTube</a></li>
+                        </div>
+                        <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/instragram.jpeg" alt="" width="20px" height="15px">
+                            <li><a href="">Instagram</a></li>
+                        </div>
+                        <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                            <img src="images/icons/linkedin.png" alt="" width="20px" height="15px">
+                            <li><a href="">Linkedin</a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="course.js"></script>
+</body>
+
+</html>

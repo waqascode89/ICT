@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="home.css">
+  <style>
+    .contactform-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      width: 100%;
+      height: 40vh;
+      background-color: #6c63ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .header h1 {
+      color: white;
+      font-size: 3em;
+    }
+
+    .header h2 {
+      color: white;
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+
+    .form {
+      width: 80%;
+      max-width: 800px;
+      background-color: white;
+      border-radius: 20px;
+      margin-top: -10vh;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .form div {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+    }
+
+    .form i {
+      color: #6c63ff;
+      margin-right: 10px;
+    }
+
+    .form input {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      outline: none;
+      padding-left: 40px;
+    }
+
+    .form input:focus {
+      border-color: #6c63ff;
+    }
+
+    .form button {
+      width: 41%;
+      height: 48px;
+      border: none;
+      border-radius: 20px;
+      background-color: #6c63ff;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .form a {
+      color: #6c63ff;
+      text-decoration: none;
+    }
+
+    .form a:hover {
+      text-decoration: underline;
+    }
+
+    .images {
+      width: 80%;
+      max-width: 800px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .images img {
+      width: 100px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .images i {
+      color: #6c63ff;
+      font-size: 2em;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      opacity: 0.6;
+      transition: opacity 0.3s;
+    }
+
+    .images i:hover {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="space" style="padding-left: 4rem; padding-right: 4rem;">
+    <nav>
+      <div class="logo">
+        <img src="images/icons/exam_10402814.png" alt="KUCH SEEKHO" class="kuchseekhloLogo">
+        <p class="logo-heading">KUCH <br>SEEKHO</p>
+      </div>
+      <div class="nav-bar">
+        <ul style="display: flex; justify-content: center; align-items: center;">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li> <a href="contactus.html">Contact Us</a></li>
+          <i class="fa-solid fa-cart-shopping" style="margin-right: 10px;"></i>
+          <div>
+            <button class="login-btn" style="margin-right: 10px; cursor: pointer;"><a href="loginform.html">Log
+                in</a></button>
+            <button class="sign-up" style="margin-right: 10px; cursor: pointer;"><a href="signup.html">Sign
+                up</a></button>
+          </div>
+        </ul>
+      </div>
+    </nav>
+
+  </div>
+<br>
+
+  <div class="contactform-container">
+    <div class="header">
+      <h1>Contact Us</h1>
+      <h2>Questions, bug reports, feedback — we're here for it all.</h2>
+    </div>
+    <div class="details" style="display: flex; justify-content: center; width: 90vh; flex-direction: column;">
+      <div class="form">
+        <div>
+          <i class="fas fa-question-circle"></i>
+          <input type="text" placeholder="Select a topic">
+        </div>
+        <div>
+          <i class="fas fa-comment-dots"></i>
+          <input type="text" placeholder="Or tell us what you need help with">
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <button>GET HELP</button>
+        </div>
+      </div>
+      <div class="images">
+        <div>
+          <img src="images/co-founder-imgs/waqas.png" alt="Person 1">
+          <i class="fas fa-comment"></i>
+        </div>
+        <div>
+          <img src="images/co-founder-imgs/hamza.jpg" alt="Person 2">
+          <i class="fas fa-comment"></i>
+        </div>
+        <div>
+          <img src="images/co-founder-imgs/farhan.jpg" alt="Person 3">
+          <i class="fas fa-comment"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="space" style="padding-left: 4rem; padding-right: 4rem;">
+    <footer>
+      <div class="footer">
+          <div class="logo">
+              <img src="images/icons/exam_10402814.png" alt="KUCH SEEKHO" class="kuchseekhloLogo">
+              <p class="logo-heading">KUCH <br>SEEKHO</p>
+          </div>
+          <div class="helpful-links">
+              <div class="link-box" style="display: flex;align-items: center; margin-bottom: 5px;">
+                  <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                  <li><a href="">Home</a></li>
+              </div>
+              <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                  <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                  <li><a href="course.html">Courses</a></li>
+              </div>
+              <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                  <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                  <li><a href="">About</a></li>
+              </div>
+              <div class="link-box" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                  <img src="images/icons/right arrow.png" alt="" width="15px" height="15px">
+                  <li><a href="">Privacy Policy</a></li>
+              </div>
+          </div>
+          <div class="get-in-touch">
+              <ul>
+                  <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                      <li>info@kuchseekho.com</li>
+                  </div>
+                  <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                      <li>info@kuchseekho.com</li>
+                  </div>
+                  <div class="getintouchbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/email box.png" alt="" width="15px" height="15px">
+                      <li>24 Hour Support</li>
+                  </div>
+              </ul>
+          </div>
+          <div class="contact-us">
+              <ul>
+                  <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/facebook.png" alt="" width="20px" height="15px">
+                      <li><a href="">Facebook</a></li>
+                  </div>
+                  <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/twiiter.jpeg" alt="" width="20px" height="15px">
+                      <li><a href="">Twitter</a></li>
+                  </div>
+                  <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/youtube.jpeg" alt="" width="20px" height="15px">
+                      <li><a href="">YoutTube</a></li>
+                  </div>
+                  <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/instragram.jpeg" alt="" width="20px" height="15px">
+                      <li><a href="">Instagram</a></li>
+                  </div>
+                  <div class="contactusbox" style="display: flex;align-items: center;  margin-bottom: 5px;">
+                      <img src="images/icons/linkedin.png" alt="" width="20px" height="15px">
+                      <li><a href="">Linkedin</a></li>
+                  </div>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  </div>
+</body>
+
+</html>
